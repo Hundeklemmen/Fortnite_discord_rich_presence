@@ -10,7 +10,6 @@ const rpc = new Client({ transport: "ipc" }),
 var lastidk = "";
 
 async function updatediscord() {
-    console.log("Checking..")
     var instream = fs.createReadStream(process.env.LOCALAPPDATA+"/FortniteGame/Saved/Logs/FortniteGame.log");
     var outstream = new stream;
     var rl = readline.createInterface(instream, outstream);
@@ -63,7 +62,7 @@ async function updatediscord() {
         } else {
             rpc.setActivity({
                 details: `Battle Royale`,
-                state: `Main Menu`,
+                state: `Game Menu`,
                 largeImageKey: 'battle_royale',
                 smallImageKey: 'logo',
                 largeImageText: `Battle Royale`,
