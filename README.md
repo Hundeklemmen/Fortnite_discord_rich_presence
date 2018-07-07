@@ -1,6 +1,6 @@
 # Fortnite_discord_rich_presence
 [NodeJS] Adds live game stats to discord rich presence
-*DOESN'T WORK ANYMORE! (Due to fortnite log update)*
+#*DOESN'T WORK ANYMORE! (Due to fortnite log update)*
 #Require:
 - Nodejs
 - Discord
